@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#cols{
+    display: flex;
+    height: 630px;
+}
+#col-1{
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1525562932397-2b8d29361f35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+}
+#navbar{
+    position: sticky;
+    background-color: rgb(14, 146, 235);
+}
+#nav-links a{
+    
+   
+    justify-self: unset;
+   font-weight: bold;
+   font-size: large;
+   color: rgb(226, 183, 13);
+    
+}
+#nav-links a:hover{
+    color: rgb(255, 255, 255);
+    border-radius: 3px dotted;
+    text-decoration: none;
+    text-transform: inherit;
+}
+#about{
+    padding-top: 7%;
+}
+#text{
+    padding-top: 40%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#text{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-transform: none;
+    font-weight: bolder;
+    color: rgb(231, 194, 29);
+    
+}
+.glow{
+    font-size: 60px;
+    color: rgb(226, 183, 13);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinate alternate;
+}
+@-webkit-keyframes glow{
+    from{
+        text-shadow: 0 0 10px rgb(15, 110, 173), 0 0 20px rgb(15, 110, 173), 0 0 30px rgb(30, 139, 211),0 0 40px #0f00e6, 0 0 50px #0077e6, 0 0 60px #0023e6, 0 0 70px #006be6;
+    }
+    to {
+      text-shadow: 0 0 20px rgb(40, 202, 231), 0 0 30px #226592, 0 0 40px #4d9aff, 0 0 50px #4dafff, 0 0 60px #4d9aff, 0 0 70px #4d68ff, 0 0 80px #4db8ff;
+    }
+}; 
+h3{
+    font-weight: bold;
+}
+#row2{
+    padding-top: 3%;
+}
+
