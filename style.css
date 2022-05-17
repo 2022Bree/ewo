@@ -59,7 +59,7 @@ body{
         text-shadow: 0 0 10px rgb(15, 110, 173), 0 0 20px rgb(15, 110, 173), 0 0 30px rgb(30, 139, 211),0 0 40px #0f00e6, 0 0 50px #0077e6, 0 0 60px #0023e6, 0 0 70px #006be6;
     }
     to {
-      text-shadow: 0 0 20px rgb(40, 202, 231), 0 0 30px #226592, 0 0 40px #4d9aff, 0 0 50px #4dafff, 0 0 60px #4d9aff, 0 0 70px #4d68ff, 0 0 80px #4db8ff;
+      text-shadow: 0 0 20px rgb(11, 137, 240), 0 0 30px #226592, 0 0 40px #4d9aff, 0 0 50px #4dafff, 0 0 60px #4d9aff, 0 0 70px #4d68ff, 0 0 80px #4db8ff;
     }
 }; 
 h3{
